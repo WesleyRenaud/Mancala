@@ -4,14 +4,10 @@ Mancala
 
 ## Description
 
-This new version of Mancala expands on the interface and playability of the game, while refactoring the classes of the program to
-make the units more cohesive, while also reducing coupling. The game now employs two rule sets: the standard Kalah rules and the
-new Ayo rules which iteratively moves the stones. There is also a feature to connect individual games to a player or user profile, 
-which counts the number of games played and wins within in each rule set. 
-We refactored the units of code by dissecting the board class into two parts. We split the board class into two parts: the game 
-rules, and the data structure. The two rule sets extend the abstract gameRules class, and the Pit and Store classes implement the 
-interfact, countable, which allows most parts of the game to use these classes without knowing the specific implementations of 
-stores and pits.
+ * This program allows you to play Mancala using two different rulesets: the Ayo ruleset and the traditional Kalah ruleset
+ * The game is interfaced to a GUI which provides options for saving and loading games and user profiles, which track the
+   number of wins and games played in each ruleset
+ * There is an explanation on the game of Mancala and each ruleset at the bottom of the README
 
 ## Getting Started
 
@@ -26,13 +22,13 @@ gradle build
 gradle echo
 ''
 
-copy and paste one of the instructions into the terminal
+copy and paste one of the instructions into the terminal to run the jar file
 
 ## Limitations
 
 TO DO:
- * Implement GUI
- * Implement user profile system
+ * There is a known bug with setting a profile name before a game has started; this will spawn a null-pointer exception but will
+   not crash the program
 
 ## Author Information
 
@@ -44,57 +40,38 @@ wrenaud@uoguelph.ca
 Keep a log of what things you accomplish when.  You can use git's tagging feature to tag the versions or you can reference commits.
 
 * 1.0
-    * Added fix to start new game with new user
-    * Finished end of game issues with buttons
-    * Added buttons to see each of the user stats
-* 0.8
-    * Fixed issue with loading a prevous game
-    * Added javadocs to a few places without one
-    * Fixed issue with Ayo turn/move not ending 
-    * Working with displays and GUI functionality 
-    * Checked tests of Ayo/Kalah rules methods
-* 0.7
-    * Working on file choosing/loads and saves
-    * Working on action listners for game moves
-    * Working on GUI component, basic is done
-* 0.6
-    * Fixed logical issue with swapping turns
-    * Fixed logical issue with captruing stones
-    * Added TextUI to test new game features
-* 0.5
-    * Removed redundant PMD errors of classes 
-    * Fixed bugs with AyoRules moving logic
-    * Finished writing test cases of all classes
-    * Touched up/formatted javadocs comments  
-    * Refactor/cut down over MancalaGame class 
-    * Remove/move board class into Gamerules 
-* 0.4
-    * Finished testing of almost all classes
-    * Finished logic methods for KalahRules class
-    * Removed PMD errors down to below 100
-    * Created steal and extra turn mechanics
-    * Completed javadocs for most methods
-* 0.3
-    * Added countable interface to Pit and Store
-    * Removed PMD errors from new classes
-    * Finalized game save and load mechanics
-* 0.2
-    * Started to add save/load options in UI
-    * Added UserProfile class for player records
-    * Added saver class for saving/loaded games
-    * Added serializable interface to all classes
-* 0.1
-    * Reduced PMD errors from 344 down to ~90
-    * Refactored / broke down complicated methods
-    * Sorted all method in all classes
+    * GUI and persistence elements fully working
+    * Both rulesets working correctly
+
+## How to play Mancala
+
+Mancala is a two-player board game consisting of twelve pits (six on each player's side), two stores (one for each player) and a 
+finite number of stones. The two players compete against one-another with the objective of putting as many stones as possible into 
+their store. The game ends when at least one player has no stones to move. 
+
+The game starts by numbering the pits one through twelve. Each player gets six pits facing them. The players' stores are placed to
+the right of the final pit on their side. Each of a player's pits have a pit of the other player across from it. Players take turns 
+selecting one of their pits. When a pit is selected, all of its stones are removed and distributed counter-clockwise, one at a time 
+into the following pits and stores until all of the stones are gone. There is no stone placed in the opponent's store.
+
+Kalah Rules:
+
+Stones are distributed counter-clockwise until none are left. If the final stone lands in the current player's store they get an
+extra turn. If the last stone lands in an empty pit on the current player's side, all of the stones in the pit across from it are
+distributed into the player's store.
+
+Ayo Rules:
+
+Stones are distributed counter-clockwise until none are left. This process is repeatedly with the pit where the last stone ended
+until that pit has zero stones prior to the last stone on the current move being added to it. If the last stone lands in an empty
+pit on the current player's side, all of the stones in that pit plus all of the stones in the put across from it are moved into
+the player's store.
+
 
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
 * [simple-readme] (https://gist.githubusercontent.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc/raw/d59043abbb123089ad6602aba571121b71d91d7f/README-Template.md)
-* http://localhost:3000 (textbook)
-* http://localhost:8000/docs (javadocs)
-* file:///Users/wesleyrenaud/Desktop/School/CIS*2430/Documents/docs/mancala/MancalaGame.html (Mancala javadocs)
 * https://www.officialgamerules.org/mancala (Mancala rules)
 * https://www.mathsisfun.com/games/mancala.html (Online Mancala game - used for learning rules)
