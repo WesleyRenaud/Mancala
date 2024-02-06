@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mancala.KalahRulesTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2024-02-06T23:18:09" hostname="Wesleys-MBP" time="0.016">
+  <properties/>
+  <testcase name="testCaptureStonesNonEmptyTarget()" classname="mancala.KalahRulesTest" time="0.001"/>
+  <testcase name="testMoveStones_WithPlayerOne_FromPlayerOneSide_StoreNotReached()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <testcase name="testDistributeStones_WithPlayerTwo_FromPlayerOneSide()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <testcase name="testMoveStonesOneMove()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <testcase name="testDistributeStonesSingleMove()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <testcase name="testDistributeStones_WithPlayerTwo_FromPlayerTwoSide()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <testcase name="testMoveStonesWithCapture()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <testcase name="testMoveStone_WithSteal()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <testcase name="testMoveStones_WithPlayerTwo_FromPlayerTwoSide_StoreNotReached()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <testcase name="testDistributeStones_WithInvalidStartPit()" classname="mancala.KalahRulesTest" time="0.001"/>
+  <testcase name="testDistributeStones_WithPlayerTwo_FromPlayerOneSide_PassingPlayerOneStore()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <testcase name="testCaptureStones_WithPlayerOne_OnPlayerOneSide()" classname="mancala.KalahRulesTest" time="0.001"/>
+  <testcase name="testMoveStones_WithPlayerOne_FromPlayerOneSide_StoreReached()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <testcase name="testCaptureStones_WithPlayerTwo_OnPlayerOneSide()" classname="mancala.KalahRulesTest" time="0.002"/>
+  <testcase name="testCaptureStones_WithPlayerOne_OnPlayerTwoSide()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <testcase name="testCaptureStones_WithPlayerTwo_OnPlayerTwoSide()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <testcase name="testDistributeStones_WithPlayerOne_FromPlayerTwoSide_PassingPlayerTwoStore()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <testcase name="testMoveStones_WithPlayerOne_FromPlayerTwoSide()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <testcase name="testCaptureStones_WithInvalidStoppingPoint()" classname="mancala.KalahRulesTest" time="0.001"/>
+  <testcase name="testDistributeStones_WithPlayerOne_FromPlayerOneSide()" classname="mancala.KalahRulesTest" time="0.001"/>
+  <testcase name="testSetUpPits()" classname="mancala.KalahRulesTest" time="0.001"/>
+  <testcase name="testMoveStones_WithPlayerTwo_FromPlayerTwoSide_StoreReached()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <testcase name="testDistributeStones_WithPlayerOne_FromPlayerTwoSide()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <testcase name="testMoveStones_WithPlayerTwo_FromPlayerOneSide()" classname="mancala.KalahRulesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
