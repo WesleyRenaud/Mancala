@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mancala.GameRulesTest" tests="31" skipped="0" failures="0" errors="0" timestamp="2024-02-06T23:18:09" hostname="Wesleys-MBP" time="0.022">
+<testsuite name="mancala.GameRulesTest" tests="31" skipped="0" failures="0" errors="0" timestamp="2025-11-11T17:15:12" hostname="Wesleys-MacBook-Pro-2.local" time="0.022">
   <properties/>
-  <testcase name="testResetBoard_AfterMoves()" classname="mancala.GameRulesTest" time="0.001"/>
+  <testcase name="testResetBoard_AfterMoves()" classname="mancala.GameRulesTest" time="0.0"/>
   <testcase name="testGetNumStones()" classname="mancala.GameRulesTest" time="0.001"/>
   <testcase name="testIsSideEmpty_AfterEmptyingRandomPits()" classname="mancala.GameRulesTest" time="0.001"/>
   <testcase name="testGetStoreCount()" classname="mancala.GameRulesTest" time="0.001"/>
   <testcase name="testCurrPlayerEndPit_WithPlayerTwoCurrentPlayer()" classname="mancala.GameRulesTest" time="0.0"/>
-  <testcase name="testSumStoresInPlayerPits()" classname="mancala.GameRulesTest" time="0.001"/>
-  <testcase name="testGetWinner_WithPlayerTwoWinner()" classname="mancala.GameRulesTest" time="0.0"/>
-  <testcase name="testIsSideEmpty_AtStartOfGame()" classname="mancala.GameRulesTest" time="0.0"/>
+  <testcase name="testSumStoresInPlayerPits()" classname="mancala.GameRulesTest" time="0.0"/>
+  <testcase name="testGetWinner_WithPlayerTwoWinner()" classname="mancala.GameRulesTest" time="0.001"/>
+  <testcase name="testIsSideEmpty_AtStartOfGame()" classname="mancala.GameRulesTest" time="0.001"/>
   <testcase name="testGetWinner_WithTiedGame()" classname="mancala.GameRulesTest" time="0.0"/>
   <testcase name="testRegisterPlayers()" classname="mancala.GameRulesTest" time="0.0"/>
   <testcase name="testIsSideEmpty_AfterEmptyingPlayerOneSide()" classname="mancala.GameRulesTest" time="0.001"/>
   <testcase name="testIsSideEmpty_AfterEmptyingBothSides()" classname="mancala.GameRulesTest" time="0.001"/>
-  <testcase name="testResetBoard_AtStartOfGame()" classname="mancala.GameRulesTest" time="0.001"/>
-  <testcase name="testForInvalidMoveException_DueToInvalidPlayerNum()" classname="mancala.GameRulesTest" time="0.0"/>
+  <testcase name="testResetBoard_AtStartOfGame()" classname="mancala.GameRulesTest" time="0.0"/>
+  <testcase name="testForInvalidMoveException_DueToInvalidPlayerNum()" classname="mancala.GameRulesTest" time="0.001"/>
   <testcase name="testGetWinner_WithPlayerOneWinner()" classname="mancala.GameRulesTest" time="0.0"/>
-  <testcase name="testIsSideEmpty_AfterEmptyingPlayerTwoSide()" classname="mancala.GameRulesTest" time="0.001"/>
+  <testcase name="testIsSideEmpty_AfterEmptyingPlayerTwoSide()" classname="mancala.GameRulesTest" time="0.0"/>
   <testcase name="testForInvalidMoveException_DueToEmptyStartPit()" classname="mancala.GameRulesTest" time="0.0"/>
-  <testcase name="testMoveFinalStonesIntoStores()" classname="mancala.GameRulesTest" time="0.001"/>
+  <testcase name="testMoveFinalStonesIntoStores()" classname="mancala.GameRulesTest" time="0.0"/>
   <testcase name="testGetDataStructure()" classname="mancala.GameRulesTest" time="0.0"/>
   <testcase name="testCurrPlayerStartPit_WithPlayerOneCurrentPlayer()" classname="mancala.GameRulesTest" time="0.0"/>
   <testcase name="testCurrPlayerEndPit_WithPlayerOneCurrentPlayer()" classname="mancala.GameRulesTest" time="0.0"/>
-  <testcase name="testGetWinner_WithGameNotOver()" classname="mancala.GameRulesTest" time="0.0"/>
+  <testcase name="testGetWinner_WithGameNotOver()" classname="mancala.GameRulesTest" time="0.001"/>
   <testcase name="testForInvalidMoveException_DueToInvalidStartPit()" classname="mancala.GameRulesTest" time="0.001"/>
   <testcase name="testGetNumStones_AfterAddingStones()" classname="mancala.GameRulesTest" time="0.0"/>
   <testcase name="testSetPlayer()" classname="mancala.GameRulesTest" time="0.0"/>
@@ -30,7 +30,7 @@
   <testcase name="testSetUpPits()" classname="mancala.GameRulesTest" time="0.0"/>
   <testcase name="testGetStoreCount_AfterAddingNegativeNumber()" classname="mancala.GameRulesTest" time="0.0"/>
   <testcase name="testSwapPlayers_FromPlayerOne()" classname="mancala.GameRulesTest" time="0.0"/>
-  <testcase name="testSwapPlayers_FromPlayerTwo()" classname="mancala.GameRulesTest" time="0.0"/>
+  <testcase name="testSwapPlayers_FromPlayerTwo()" classname="mancala.GameRulesTest" time="0.001"/>
   <testcase name="testCurrPlayerStartPit_WithPlayerTwoCurrentPlayer()" classname="mancala.GameRulesTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

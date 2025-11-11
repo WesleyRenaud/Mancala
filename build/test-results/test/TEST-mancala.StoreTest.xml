@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mancala.StoreTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2024-02-06T23:18:09" hostname="Wesleys-MBP" time="0.013">
+<testsuite name="mancala.StoreTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-11-11T17:15:12" hostname="Wesleys-MacBook-Pro-2.local" time="0.008">
   <properties/>
   <testcase name="testEmptyStore()" classname="mancala.StoreTest" time="0.001"/>
   <testcase name="testToString()" classname="mancala.StoreTest" time="0.004"/>
-  <testcase name="testGetTotalStones_AfterAddingNegativeNumber()" classname="mancala.StoreTest" time="0.003"/>
-  <testcase name="testAddStone()" classname="mancala.StoreTest" time="0.0"/>
-  <testcase name="testGetTotalStones_AfterAddingPositiveNumber()" classname="mancala.StoreTest" time="0.001"/>
+  <testcase name="testGetTotalStones_AfterAddingNegativeNumber()" classname="mancala.StoreTest" time="0.0"/>
+  <testcase name="testAddStone()" classname="mancala.StoreTest" time="0.001"/>
+  <testcase name="testGetTotalStones_AfterAddingPositiveNumber()" classname="mancala.StoreTest" time="0.0"/>
   <testcase name="testGetTotalStones_AtStartOfGame()" classname="mancala.StoreTest" time="0.0"/>
-  <testcase name="testAddStones()" classname="mancala.StoreTest" time="0.001"/>
-  <testcase name="testGetOwnerName()" classname="mancala.StoreTest" time="0.001"/>
+  <testcase name="testAddStones()" classname="mancala.StoreTest" time="0.0"/>
+  <testcase name="testGetOwnerName()" classname="mancala.StoreTest" time="0.0"/>
   <testcase name="testGetTotalStones()" classname="mancala.StoreTest" time="0.0"/>
   <testcase name="testEmptyStore_AtStartOfGame()" classname="mancala.StoreTest" time="0.0"/>
   <testcase name="testSetOwner()" classname="mancala.StoreTest" time="0.0"/>

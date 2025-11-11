@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mancala.PitTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-02-06T23:18:09" hostname="Wesleys-MBP" time="0.003">
+<testsuite name="mancala.PitTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-11-11T17:15:12" hostname="Wesleys-MacBook-Pro-2.local" time="0.002">
   <properties/>
   <testcase name="testToString()" classname="mancala.PitTest" time="0.0"/>
   <testcase name="testGetStoneCount()" classname="mancala.PitTest" time="0.001"/>
-  <testcase name="testAddStone()" classname="mancala.PitTest" time="0.001"/>
+  <testcase name="testAddStone()" classname="mancala.PitTest" time="0.0"/>
   <testcase name="testRemoveStones()" classname="mancala.PitTest" time="0.0"/>
   <testcase name="testAddStones()" classname="mancala.PitTest" time="0.0"/>
   <testcase name="testRemoveStones_AtStartOfGame()" classname="mancala.PitTest" time="0.0"/>

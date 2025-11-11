@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mancala.MancalaDatStructureTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2024-02-06T23:18:09" hostname="Wesleys-MBP" time="0.008">
+<testsuite name="mancala.MancalaDatStructureTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2025-11-11T17:15:12" hostname="Wesleys-MacBook-Pro-2.local" time="0.007">
   <properties/>
-  <testcase name="testAddStones_WithPositiveNumber()" classname="mancala.MancalaDatStructureTest" time="0.001"/>
+  <testcase name="testAddStones_WithPositiveNumber()" classname="mancala.MancalaDatStructureTest" time="0.0"/>
   <testcase name="testIsSideEmpty_WithNoEmptyPits()" classname="mancala.MancalaDatStructureTest" time="0.0"/>
-  <testcase name="testAddStones_WithInvalidPitIndex()" classname="mancala.MancalaDatStructureTest" time="0.001"/>
+  <testcase name="testAddStones_WithInvalidPitIndex()" classname="mancala.MancalaDatStructureTest" time="0.0"/>
   <testcase name="testRemoveStones_WithInvalidPitIndex()" classname="mancala.MancalaDatStructureTest" time="0.0"/>
-  <testcase name="testIsSideEmpty_AfterEmptyingBothSides()" classname="mancala.MancalaDatStructureTest" time="0.001"/>
+  <testcase name="testIsSideEmpty_AfterEmptyingBothSides()" classname="mancala.MancalaDatStructureTest" time="0.0"/>
   <testcase name="testIsSideEmpty_AfterEmptyingSideOne()" classname="mancala.MancalaDatStructureTest" time="0.0"/>
   <testcase name="testIsSideEmpty_AfterEmptyingSideTwo()" classname="mancala.MancalaDatStructureTest" time="0.0"/>
   <testcase name="testAddToStore()" classname="mancala.MancalaDatStructureTest" time="0.0"/>
   <testcase name="testRemoveStones()" classname="mancala.MancalaDatStructureTest" time="0.001"/>
-  <testcase name="testRemoveStonesTwice()" classname="mancala.MancalaDatStructureTest" time="0.001"/>
+  <testcase name="testRemoveStonesTwice()" classname="mancala.MancalaDatStructureTest" time="0.0"/>
   <testcase name="testEmptyStores()" classname="mancala.MancalaDatStructureTest" time="0.0"/>
   <testcase name="testAddToStore_WithInvalidPlayerNumber()" classname="mancala.MancalaDatStructureTest" time="0.0"/>
-  <testcase name="testIsSideEmpty_WithInvalidPitNumber()" classname="mancala.MancalaDatStructureTest" time="0.0"/>
+  <testcase name="testIsSideEmpty_WithInvalidPitNumber()" classname="mancala.MancalaDatStructureTest" time="0.001"/>
   <testcase name="testSetUpPits()" classname="mancala.MancalaDatStructureTest" time="0.0"/>
-  <testcase name="testAddStones_WithNegativeNumber()" classname="mancala.MancalaDatStructureTest" time="0.0"/>
+  <testcase name="testAddStones_WithNegativeNumber()" classname="mancala.MancalaDatStructureTest" time="0.001"/>
   <testcase name="testSetStore()" classname="mancala.MancalaDatStructureTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
